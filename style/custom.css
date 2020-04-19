@@ -1,0 +1,14 @@
+.sidebar{    
+	border: solid 1px #dfdfdf;
+   	height: Calc(100vh - 42px);
+	border-top: none;
+}
+.list-group .list-group-item:first-child{
+	border-top:none;
+	border-right:none;
+}
+.list-group .list-group-item:last-child{
+	border-right:none;
+	border-bottom-right-radius: 0px;
+    	border-bottom-left-radius: 0px;
+}
